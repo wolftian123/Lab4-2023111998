@@ -23,7 +23,8 @@ public class L2023111998_4_Test {
     public void testSortedArray() {
         int[] nums = {1, 3, 6, 9};
         Solution4 solution = new Solution4();
-        assertEquals("已排序数组应正确计算最大间隙", 3, solution.maximumGap(nums));
+        //  错误示例：修改这里：从 3 改为 999（必定失败）
+        assertEquals("已排序数组应正确计算最大间隙", 99, solution.maximumGap(nums));
     }
     @Test
     public void testUnsortedArray() {
