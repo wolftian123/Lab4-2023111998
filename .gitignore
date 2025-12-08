@@ -1,0 +1,22 @@
+# Maven
+target/
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+bin/
+
+# System
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.backup
